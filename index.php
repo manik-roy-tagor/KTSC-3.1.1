@@ -28,9 +28,8 @@
 <body class="bg-gray-300 font-bangla">
 
     <header>
+        <div class="p-2 bg-purple-600 rounded-t-md lg:px-36 md:px-16"></div>
         <div class="lg:px-36 md:px-16 sliderAx">
-
-
             <div id="slider-1" class="container mx-auto">
                 <div class="bg-cover bg-top text-white py-24 px-10 object-fill"
                     style="background-image: url(https://images.unsplash.com/photo-1544144433-d50aff500b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)">
@@ -54,10 +53,10 @@
             </div>
         </div>
 
-        <nav class="md:px-36 lg:px-36 bg-white border-gray-200 dark:bg-gray-900">
+        <nav class="md:px-36 lg:px-36 bg-gray-300 border-gray-200 dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="" class="flex items-center">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src="files/gallary/285972875 - logo-rounded.png" class="h-8 mr-3" alt="Flowbite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">কালিগঞ্জ টিএসসি,
                         লালমনিরহাট </span>
                 </a>
@@ -73,10 +72,10 @@
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul
-                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        class="text-lg font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0">
                         <li>
                             <a href="#"
-                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white "
                                 aria-current="page">হোম</a>
                         </li>
                         <li>
@@ -106,10 +105,101 @@
         </nav>
     </header>
     <main class="md:flex md:px-36 lg:px-36 gap-4">
-        <div class="md:w-3/4 h-6 bg-blue-700">
-            fdfsdfds
+        <div class="md:w-3/4">
+            <div class="border-solid border-2 border-indigo-600 rounded-md py-2 px-1 mb-4">
+                Notice:
+            </div>
+
+            <div class="border-solid border-2 border-indigo-600 rounded-md py-2 px-1 mb-4">
+                Notice:
+            </div>
+            <div
+                class="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2 border-solid border-2 border-indigo-600 rounded-md py-2 px-1 mb-4">
+
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="files/gallary/16684881 - 1.jpeg" alt="Movie" class="w-24 h-24" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="files/gallary/16684881 - 1.jpeg" alt="Movie" class="w-24 h-24" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="files/gallary/16684881 - 1.jpeg" alt="Movie" class="w-24 h-24" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="files/gallary/16684881 - 1.jpeg" alt="Movie" class="w-24 h-24" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="files/gallary/16684881 - 1.jpeg" alt="Movie" class="w-24 h-24" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Watch</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
         </div>
-        <div class="md:w-1/4 h-8 bg-purple-400">sdfsdfsdfs</div>
+        <div class="grid grid-cols-1 gap-4 md:w-1/4 h-8">
+
+            <div class="card bg-base-100 shadow-xl">
+                <p class="text-xl font-bold text-center p-2 bg-purple-400 rounded-t-md">মহাপরিচালক</p>
+                <figure><img src="files/gallary/Md. Mohsin Add Sec.jpg" alt="Movie" class="border-0 w-32 h-40" /></figure>
+                <div class="text-center">
+                    <h2 class="text-xl font-bold">মোঃ মহসিন</h2>
+                    <p>মহাপরিচালক<br>কারিগরি শিক্ষা অধিদপ্তর</p>
+                </div>
+            </div>
+
+            <div class="card bg-base-100 shadow-xl">
+                <p class="text-xl font-bold text-center p-2 bg-purple-400 rounded-t-md">অধ্যক্ষ</p>
+                <figure><img src="files/gallary/Principal-Final PIC.jpg" alt="Movie" class="border-0 w-32 h-40" /></figure>
+                <div class="text-center">
+                    <h2 class="text-xl font-bold">মোঃ শরিফুল ইসলাম</h2>
+                    <p>অধ্যক্ষ<br>কালিগঞ্জ সরকারি টেকনিক্যাল স্কুল ও কলেজ</p>
+                </div>
+            </div>
+
+
+        </div>
     </main>
 
     <script>
